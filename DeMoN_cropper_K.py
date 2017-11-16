@@ -318,6 +318,10 @@ def crop_image_for_DeMoN_OpenCV(orig_img_path, output_dir, focal_length_x = 2457
         # cv2.imshow("cropped_img", cropped_img)
         # cv2.waitKey(0)
 
+    else:
+        cropped_img = orig_img[int(cropped_min_y):int(cropped_max_y), int(cropped_min_x):int(cropped_max_x)]
+
+
     DeMoN_input_width = 256
     DeMoN_input_height = 192
 
