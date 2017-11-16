@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PyCropper
 
 **THIS IS A PYTHON 3.X SCRIPT. IT WILL NOT WORK ON PYTHON 2.X. YOU HAVE BEEN WARNED.**
@@ -84,3 +85,7 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 
 
  
+=======
+# MscTheisPythonUtils
+some utils code (python scripts) for my thesis project
+>>>>>>> b2700c076de55079961896e28cd676d10cdab2c3
