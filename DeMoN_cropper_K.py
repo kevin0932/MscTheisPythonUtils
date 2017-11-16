@@ -37,6 +37,7 @@ INPUT_DIR = 'img'
 OUTPUT_DIR = 'out'
 TOLERANCE = 11
 
+###### Function from PyCropper project  ######
 def process(file, output_dir):
     # Print out some file information
     image = Image.open(file)
