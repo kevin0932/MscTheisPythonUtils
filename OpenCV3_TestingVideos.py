@@ -1,3 +1,7 @@
+##############################################################
+###### Just for testing of OpenCV with Python interface ######
+### Python 3.5 + OpenCV 3.3 in Anaconda (tensorflow_demon) ###
+##############################################################
 import cv2
 cap=cv2.VideoCapture("SampleVideo_360x240_30mb.mp4")
 print (cap.isOpened())   # True = read video successfully. False - fail to read video.
