@@ -2,7 +2,7 @@
 
 
 ### How to do image cropping for DeMoN's Input!
-# find some inhttps://github.com/lmb-freiburg/demon/issues/15
+# find some in https://github.com/lmb-freiburg/demon/issues/15
 
 ===============================================================================
 The following params are checked from database.db file provided in southbuilding dataset with COLMAP.
