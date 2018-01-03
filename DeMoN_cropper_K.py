@@ -335,7 +335,8 @@ def crop_image_for_DeMoN_OpenCV(orig_img_path, output_dir, focal_length_x = 2457
 
     # Save image to output dir
     file_name, file_ext = os.path.splitext(orig_img_path)
-    output_file_name = os.path.basename(file_name) + '_processed' + file_ext
+    #output_file_name = os.path.basename(file_name) + '_processed' + file_ext
+    output_file_name = os.path.basename(file_name) + file_ext
     output_file_path = os.path.join(output_dir, output_file_name)
     print("Saving image to " + output_file_path)
     print("Image to be saved is of shape (Height*Width*Channels) = ", resized_img.shape)
